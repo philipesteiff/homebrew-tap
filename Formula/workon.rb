@@ -1,25 +1,25 @@
 class Workon < Formula
   desc "CLI and compact TUI for creating agent-ready context workspaces"
   homepage "https://github.com/philipesteiff/workon"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/philipesteiff/workon/releases/download/v0.1.0/workon-darwin-arm64.tar.gz"
-      sha256 "f9b422efd631226d1ca6e3fde884e4c590956f327290246f9df4109a3e80a35b"
+      url "https://github.com/philipesteiff/workon/releases/download/v0.1.1/workon-darwin-arm64.tar.gz"
+      sha256 "54e0720104dd12775d9fc0caceb424002340a9aedabace2e091f4f6c73be14fd"
     end
 
     on_intel do
-      url "https://github.com/philipesteiff/workon/releases/download/v0.1.0/workon-darwin-x86_64.tar.gz"
-      sha256 "8e770fd927772271c751398325412b3ab42697330e1a377c05b2d581eca0839f"
+      url "https://github.com/philipesteiff/workon/releases/download/v0.1.1/workon-darwin-x86_64.tar.gz"
+      sha256 "ea755d9fc938adf7dff54f66fdf3dba9d1542e54955d881cb03a8034cf82971c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/philipesteiff/workon/releases/download/v0.1.0/workon-linux-x86_64.tar.gz"
-      sha256 "6f41b0fa4a28b8d72625e55e3acbe68ef352d61c43085686fde8d8f94a01e39a"
+      url "https://github.com/philipesteiff/workon/releases/download/v0.1.1/workon-linux-x86_64.tar.gz"
+      sha256 "4c349fcb9069ac7f7e8f66af4c6b313044d7f8f845c8fead709c374d6ff3a608"
     end
   end
 
